@@ -29,7 +29,15 @@ def assembled_matrix
       "Grapes",
       "Avocadoes",
       "Asparagus"
+    ],
+    [
+      "Grapefruit",
+      "Pineapple",
+      "Oranges",
+      "Watermelon",
+      "Eggplant"
     ]
+    
     ]
   
 end
