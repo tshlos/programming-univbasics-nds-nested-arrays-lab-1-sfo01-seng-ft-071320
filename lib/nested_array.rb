@@ -40,7 +40,7 @@ def sorted_matrix
       [ "Strawberries", "Potatoes", "Grapes", "Avocadoes","Asparagus" ]
   ]
   sorted = produce_storage_room.sort
-
+  sorted
 end
 
 def matrix_lookup(matrix, row, column)
