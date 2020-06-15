@@ -22,21 +22,9 @@ def assembled_matrix
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   
-  produce_storage_room = [
-    [ 
-      "Strawberries",
-      "Potatoes",
-      "Grapes",
-      "Avocadoes",
-      "Asparagus"
-    ],
-    [
-      "Grapefruit",
-      "Pineapple",
-      "Oranges",
-      "Watermelon",
-      "Eggplant"
-    ]
+  produce_storage_room = [  
+    [ "Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant" ],
+    [ "Strawberries", "Potatoes", "Grapes", "Avocadoes","Asparagus" ]
   ]
   
 end
@@ -48,20 +36,8 @@ def sorted_matrix
   
   
     produce_storage_room = [
-    [ 
-      "Strawberries",
-      "Potatoes",
-      "Grapes",
-      "Avocadoes",
-      "Asparagus"
-    ],
-    [
-      "Grapefruit",
-      "Pineapple",
-      "Oranges",
-      "Watermelon",
-      "Eggplant"
-    ]
+      [ "Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant" ],
+      [ "Strawberries", "Potatoes", "Grapes", "Avocadoes","Asparagus" ]
   ]
   produce_storage_room.sort
   
